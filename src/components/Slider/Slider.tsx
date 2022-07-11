@@ -1,3 +1,5 @@
+import "./slider_styles.scss";
+
 export const Slider = () => {
   return (
     <div className="slider">
@@ -10,7 +12,7 @@ export const Slider = () => {
       <ul className="slider__dots">
         <li className="slider__dot"></li>
         <li className="slider__dot"></li>
-        <li className="slider__dot--active"></li>
+        <li className="slider__dot slider__dot--active"></li>
         <li className="slider__dot"></li>
         <li className="slider__dot"></li>
       </ul>
