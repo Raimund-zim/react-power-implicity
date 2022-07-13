@@ -33,7 +33,7 @@ body {
 }
 
 @mixin sm {
-	@media (max-width: 565px) {
+	@media (max-width: 568px) {
 		@content;
 	}
 }
