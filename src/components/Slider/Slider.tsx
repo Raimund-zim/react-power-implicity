@@ -1,4 +1,4 @@
-import "./slider_styles.scss";
+import "./style.scss";
 
 export const Slider = () => {
   return (
